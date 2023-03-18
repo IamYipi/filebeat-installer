@@ -16,5 +16,5 @@ Write-Host "Installing service Filebeat"
 Write-Host "Testing Filebeat..."
 .\filebeat.exe test config -c .\filebeat.yml
 Write-Host "Configuration in path: C:\Program Files\filebeat\filebeat.yml"
-Write-Host "For start WinlogBeat in an administrative powershell: Start-Service filebeat"
+Write-Host "For start FileBeat in an administrative powershell: Start-Service filebeat"
 Set-ExecutionPolicy Undefined -Force
